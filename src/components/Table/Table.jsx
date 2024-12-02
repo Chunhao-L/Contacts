@@ -67,7 +67,7 @@ export const Table = () => {
       useSortBy
     );
 
-  const totalPages = Math.ceil(filteredContacts.length / rowsPerPage); // 总页数
+  const totalPages = Math.ceil(filteredContacts.length / rowsPerPage); 
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
@@ -75,7 +75,7 @@ export const Table = () => {
 
   const handleRowsPerPageChange = (event) => {
     setRowsPerPage(Number(event.target.value));
-    setCurrentPage(0); // 每次更改每页行数时，重新从第一页开始
+    setCurrentPage(0); 
   };
 
   return (
