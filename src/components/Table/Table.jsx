@@ -51,7 +51,6 @@ export const Table = () => {
     );
   }, [contacts, searchInput]);
 
-  // 分页数据计算
   const paginatedContacts = React.useMemo(() => {
     const startIndex = currentPage * rowsPerPage;
     const endIndex = startIndex + rowsPerPage;
