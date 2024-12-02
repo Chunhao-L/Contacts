@@ -5,8 +5,8 @@ import styles from "./Table.module.css";
 export const Table = () => {
   const [contacts, setContacts] = useState([]);
   const [searchInput, setSearchInput] = useState("");
-  const [currentPage, setCurrentPage] = useState(0); // 当前页码
-  const [rowsPerPage, setRowsPerPage] = useState(5); // 每页显示的行数
+  const [currentPage, setCurrentPage] = useState(0);
+  const [rowsPerPage, setRowsPerPage] = useState(5);
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
