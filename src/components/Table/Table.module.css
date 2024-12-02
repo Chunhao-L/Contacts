@@ -1,0 +1,129 @@
+.background {
+    padding-top: 15px;
+}
+
+.searchLabel {
+    font-size: 16px;
+    margin-right: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.searchInput {
+    margin-bottom: 16px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.searchInput:focus {
+    border-color: #991a40;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+
+.tableWrapper {
+    overflow-x: auto;
+    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: #fff;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.table th,
+.table td {
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.table th {
+    background-color: #991a40;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    transition: background-color 0.3s ease;
+}
+
+.table th:hover {
+    background-color: #731330;
+}
+
+.table td {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+.table tr:hover {
+    background-color: #eaf4ff;
+    transition: background-color 0.2s ease;
+}
+
+.pagination {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #991a40;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+    background-color: #731330;
+    transform: scale(1.05);
+}
+
+.pagination select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+.stickyColumn {
+    position: sticky;
+    left: 0;
+    z-index: 1; 
+    font-weight: bold;
+}
+
+
+.table th,
+.table td {
+    min-width: 100px;
+}
+
+.table th:nth-child(4),
+.table td:nth-child(4) {
+    min-width: 200px;
+}

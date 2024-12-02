@@ -79,7 +79,7 @@ export const Table = () => {
   };
 
   return (
-    <div>
+    <div className={styles.background}>
       <label htmlFor="search" className={styles.searchLabel}>Search: </label>
       <input
         id="search"
