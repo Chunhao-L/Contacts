@@ -1,0 +1,131 @@
+.searchLabel {
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.searchInput {
+    margin-bottom: 16px;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tableWrapper {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.table {
+    padding: 10px;
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    vertical-align: center;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+
+.table th {
+    text-align: center;
+    background-color: aqua;
+    height: 50px;
+    cursor: pointer;
+}
+
+.table td {
+    text-align: left;
+    border-right: 1px solid black;
+}
+
+.stickyColumn {
+    position: sticky;
+    left: 0;
+    background-color: #f9f9f9;
+    z-index: 2;
+}
+
+.table th:nth-child(1),
+.table td:nth-child(1) {
+    min-width: 50px;
+    /* ID */
+}
+
+.table th:nth-child(2),
+.table td:nth-child(2) {
+    min-width: 120px;
+    /* Name */
+}
+
+.table th:nth-child(3),
+.table td:nth-child(3) {
+    min-width: 120px;
+    /* Username */
+}
+
+.table th:nth-child(4),
+.table td:nth-child(4) {
+    min-width: 180px;
+    /* Email */
+}
+
+.table th:nth-child(5),
+.table td:nth-child(5) {
+    min-width: 100px;
+    /* Phone */
+}
+
+.table th:nth-child(6),
+.table td:nth-child(6) {
+    min-width: 100px;
+    /* Website */
+}
+
+.table th:nth-child(7),
+.table td:nth-child(7) {
+    min-width: 180px;
+    /* Address */
+}
+
+.table th:nth-child(8),
+.table td:nth-child(8) {
+    min-width: 120px;
+    /* Company */
+}
+
+.table tr:nth-child(odd) {
+    background-color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.pagination {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pagination button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.pagination select {
+    padding: 8px;
+    border-radius: 4px;
+}
