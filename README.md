@@ -8,19 +8,19 @@ This project is a React application that displays user contact information in a 
   - The Navbar component includes a logo and a static title.
   - The logo image is loaded dynamically using the import.meta.url.
 - **Dynamic Table:** 
-  - *Data Fetching*: Fetches user data from https://jsonplaceholder.typicode.com/users.
-  - Sorting: Clickable headers to sort columns in ascending or descending order.
-  - Search: Filters data across all fields based on user input.
-  - Pagination: Allows navigation through pages and changing rows per page.
+  - **Data Fetching**: Fetches user data from https://jsonplaceholder.typicode.com/users.
+  - **Sorting**: Clickable headers to sort columns in ascending or descending order.
+  - **Search**: Filters data across all fields based on user input.
+  - **Pagination**: Allows navigation through pages and changing rows per page.
 - **Styling:**
   - Styled using CSS Modules for modular and scoped styling.
   - Responsive design ensures usability on different screen sizes.
 
 ## Technologies Used
-- React: For building the UI.
-- React-Table: For table functionality.
-- CSS Modules: For scoped and reusable styles.
-- Fetch API: For fetching user data.
+- **React**: For building the UI.
+- **React-Table**: For table functionality.
+- **CSS Modules**: For scoped and reusable styles.
+- **Fetch API**: For fetching user data.
 
 ## Installation and Setup
 
