@@ -8,7 +8,7 @@ export const Navbar = () => {
             <div>
                 <a className={styles.title} href="https://www.resonate.cx/">
                     <img 
-                        src={"assets/nav/resonate-1.png"} 
+                        src={new URL(`/assets/nav/resonate-1.png`, import.meta.url).href} 
                         alt="Logo" 
                         className={styles.logoImage}
                     />
